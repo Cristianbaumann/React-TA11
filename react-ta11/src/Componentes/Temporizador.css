@@ -1,0 +1,54 @@
+/* Estilos generales para la aplicación */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Contenedor del temporizador */
+  .timer-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Estilo para el temporizador */
+  .timer {
+    font-size: 48px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para los botones */
+  .timer-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Estilo para el botón de reiniciar */
+  .timer-button.reset {
+    background-color: #e74c3c;
+  }
+  
+  .timer-button.reset:hover {
+    background-color: #c0392b;
+  }
+  
